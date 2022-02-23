@@ -32,7 +32,7 @@ const useScore = () => {
         if (!score) {
             setSavedScore(0)
         }
-    }, [])
+    })
     
     return [savedScore, setSavedScore]
 }
