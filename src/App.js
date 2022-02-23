@@ -1,16 +1,21 @@
 import { AnimatePresence, motion } from 'framer-motion'
-import { useState } from 'react'
-import useScore from './hooks/useScore'
+import { useEffect, useState } from 'react'
 import images from './images'
 import Modal from "./Modal"
 
 
 function App() {
+  const initialScore = Number(window.localStorage.getItem('score') || 0)
+
   const [showModal, setShowModal] = useState()
-  const [score, setScore] = useScore()
+  const [score, setScore] = useState(initialScore)
   const [playerChoice, setPlayerChoice] = useState()
   const [computerChoice, setComputerChoice] = useState()
   const [result, setResult] = useState()
+
+  useEffect(() => {
+    window.localStorage.setItem('score',score)
+  }, [score])
   
   const resetGame = () => {
     setResult(null)
