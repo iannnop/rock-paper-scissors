@@ -18,8 +18,8 @@ Users should be able to:
 
 ### Links
 
-- [Frontend Mentor: Solution URL]()
-- [Vercel: Live Site URL]()
+- [Frontend Mentor: Solution URL](https://www.frontendmentor.io/solutions/rock-paper-scissors-with-react-and-tailwind-_x7tC0t0v5)
+- [Vercel: Live Site URL](https://rock-paper-scissors-ashen.vercel.app/)
 
 ## My process
 
