@@ -69,7 +69,7 @@ function App() {
   }
 
   return (
-    <main>
+    <main className='pt-8'>
       <div className='flex justify-between max-w-[700px] mx-8 md:mx-auto border-2 border-header-outline rounded-sm sm:rounded-2xl'>
         <img className='mx-6 lg:mx-8 my-6 w-[83px] sm:w-auto self-center' src={images.logo} alt='rock paper scissors logo' />
         <div className='bg-white flex flex-col rounded-lg my-4 mx-6'>
