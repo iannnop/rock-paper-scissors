@@ -90,7 +90,7 @@ function App() {
             <GameToken onClick={() => {playGame('rock')}} icon={images.rock} />
           </div>
         </div>
-        <div className='mr-8 flex justify-center sm:justify-end'>
+        <div className='mt-8 sm:mt-0 sm:mr-8 flex justify-center sm:justify-end'>
           <button onClick={() => {setShowModal(true)}} className='px-9 py-3 uppercase text-white rounded-lg border-[1px] font-semibold text-base tracking-widest transition-all hover:bg-white focus:bg-white hover:text-dark-text focus:text-dark-text bg-transparent border-white'>
             Rules
           </button>
